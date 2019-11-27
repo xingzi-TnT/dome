@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+}
+.fr{
+    float: right;
+}
+.login button{
+    margin: 0 20px;
+    padding: 0 10px;
+    border: 0;
+    display: inline-block;
+    height: 30px;
+}
+.login{
+    border: 1PX solid #eeeeee;
+    border-top:70px solid skyblue;  
+}
+.login p{
+    margin: 12px 0;
+}
+header{
+    height: 200px;
+    
+    background-color: pink;
+    padding-right: 30px;
+}
+.main{
+    display: flex;
+    background-color: red;
+    height: 400px;
+    overflow: hidden;
+}
+.main > aside{
+    flex: 1;
+    background-color:gray;
+}
+.main > aside li{
+    color: white;
+    margin: 10px 0px;
+}
+.main > aside a{
+    color:white;
+}
+.main > article{
+    flex: 3;
+    background-color: skyblue;
+}
